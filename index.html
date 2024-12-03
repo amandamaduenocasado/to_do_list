@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-elements">
+            <h1 class="title">To Do</h1>
+            <img id="toggle-theme" class="theme-icon" src="images/icon-moon.svg" alt="Switch theme" />
+        </div>
+    </header>
+    <main class="main">
+        <form id="task-form" class="form">
+            <input id="task-input" name="task" class="task-input" type="text" placeholder="Create a new task..." />
+        </form>
+        <div class="task-container">
+            <div class="task-list">
+                <div id="task-list-box" class="task-list-box"></div>
+                <div class="task-footer">
+                    <span id="task-counter" class="task-counter">1 item left</span>
+                    <span id="clear-completed" class="clear-button">Clear Completed</span>
+                </div>
+            </div>
+            <div class="task-filters">
+                <span id="filter-all" class="filter selected">All</span>
+                <span id="filter-active" class="filter">Active</span>
+                <span id="filter-completed" class="filter">Completed</span>
+            </div>
+        </div>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

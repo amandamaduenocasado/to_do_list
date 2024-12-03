@@ -1,0 +1,27 @@
+/* Cambiar selectores para que coincidan con los nuevos nombres */
+.theme-icon {
+    cursor: pointer;
+    width: 20px;
+}
+
+.task-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-checkbox);
+    border-radius: 5px;
+    font-size: var(--h3);
+}
+
+.task-list-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.clear-button {
+    cursor: pointer;
+    color: var(--option);
+}
+
+.filter.selected {
+    color: var(--option-different);
+}
